@@ -1,0 +1,45 @@
+.navegacion {
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 13rem;
+}
+
+.contenedor-logo {
+    margin-top: 6rem;
+    /* padding: 0 .5rem .5rem .5rem; */
+    background-color: white;
+    /* height: 13rem; */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.73);
+}
+
+span {
+    font-size: 2.5rem;
+    color: hotpink;
+}
+
+span:first-child {
+    padding-left: 1rem;
+}
+
+span:last-child {
+    padding-right: 1rem;
+}
+
+.contenedor-hero {
+    background-image: url(../img/imagen_hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
